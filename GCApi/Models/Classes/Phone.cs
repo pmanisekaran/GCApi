@@ -1,0 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace GCApi.Models
+{
+	public class Phone : Laptop
+	{
+		public Phone() : base()
+		{
+			this.DeviceType = DeviceType.Phone;
+		}
+	}
+}
